@@ -108,4 +108,4 @@ A     B     C      carry   sum
 1     1     1        1      1
 ```
 * SUM = (A ⊕ B) ⊕ C
-* CARRY = (A ∧ B) ∨ C(A ⊕ B)
+* CARRY = (A ^ (B ⊕ C) ) ⊕ (B ^ C)
